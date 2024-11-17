@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1351665843668538324
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Tierra
+  m_Shader: {fileID: -6465566751694194690, guid: d09565c455c160445be1ada2c875af58,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Earth_Clouds_Texture:
+        m_Texture: {fileID: 2800000, guid: 627817a68655e58498fd41689469abe4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Earth_Lights_Texture:
+        m_Texture: {fileID: 2800000, guid: e6169d8be5f42ed4599e4a67fca7992d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8b70f4a1b904e4f4fb59e885e659bb86, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 33f2e6f30c0c4e749b41b40cbfd8c5d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 2800000, guid: 64d8f10eb0ef09249b0a73221619b205, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_61684762e4014719b24bf40071b73818_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e6169d8be5f42ed4599e4a67fca7992d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudsRotationSpeed: 0.304
+    - _EarthRotationSpeed: 0.188
+    - _FlipLightDirection: 0
+    - _FlipLightMask: 0
+    - _FlipSpecularTex: 0
+    - _FresnelPower: 0.4
+    - _LightInsity: 0.991
+    - _NormalIntensity: 2
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SpecularIntensity: 0.9
+    - _SpecularPower: 0.5
+    - _UseCustomSpecularColor: 1
+    - _UseFresnelMask: 1
+    - _Use_Ambiental_Half_Lambert: 1
+    m_Colors:
+    - _CloudColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    - _FresnelColor: {r: 0.50539076, g: 1, b: 1, a: 0}
+    - _LightColor: {r: 7.999999, g: 4.5367494, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0, g: 0.6511248, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
