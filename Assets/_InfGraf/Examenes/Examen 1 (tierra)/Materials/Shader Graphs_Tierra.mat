@@ -76,18 +76,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CloudsRotationSpeed: 0.304
-    - _EarthRotationSpeed: 0.188
+    - _CloudsRotationSpeed: 0.081
+    - _EarthRotationSpeed: 0.025
     - _FlipLightDirection: 0
     - _FlipLightMask: 0
     - _FlipSpecularTex: 0
     - _FresnelPower: 0.4
-    - _LightInsity: 0.991
+    - _LightInsity: 0
     - _NormalIntensity: 2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SpecularIntensity: 0.9
-    - _SpecularPower: 0.5
+    - _SpecularIntensity: 0.145
+    - _SpecularPower: 0.404
     - _UseCustomSpecularColor: 1
     - _UseFresnelMask: 1
     - _Use_Ambiental_Half_Lambert: 1
@@ -96,6 +96,6 @@ Material:
     - _FresnelColor: {r: 0.50539076, g: 1, b: 1, a: 0}
     - _LightColor: {r: 7.999999, g: 4.5367494, b: 0, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SpecularColor: {r: 0, g: 0.6511248, b: 1, a: 1}
+    - _SpecularColor: {r: 0, g: 0.4462726, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
